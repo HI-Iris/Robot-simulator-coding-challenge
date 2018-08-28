@@ -1,0 +1,42 @@
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\bin\Debug\RobotMovement.exe.config
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\bin\Debug\RobotMovement.exe
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\bin\Debug\RobotMovement.pdb
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement.csprojResolveAssemblyReference.cache
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\MainWindow.g.cs
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\App.g.cs
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement_MarkupCompile.cache
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement_MarkupCompile.lref
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\MainWindow.baml
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement.g.resources
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement.Properties.Resources.resources
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement.csproj.GenerateResource.Cache
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement.exe
+h:\001\documents\visual studio 2015\Projects\RobotMovement\RobotMovement\obj\Debug\RobotMovement.pdb
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\bin\Debug\RobotMovement.exe.config
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.exe
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.pdb
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\bin\Debug\RobotMovement.exe
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\bin\Debug\RobotMovement.pdb
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.csprojResolveAssemblyReference.cache
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\MainWindow.g.cs
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\App.g.cs
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement_MarkupCompile.cache
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement_MarkupCompile.lref
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\MainWindow.baml
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.g.resources
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.Properties.Resources.resources
+C:\Users\001\Desktop\Iris_Code Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.csproj.GenerateResource.Cache
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\bin\Debug\RobotMovement.exe.config
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.exe
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.pdb
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\bin\Debug\RobotMovement.exe
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\bin\Debug\RobotMovement.pdb
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.csprojResolveAssemblyReference.cache
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\MainWindow.g.cs
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\App.g.cs
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement_MarkupCompile.cache
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement_MarkupCompile.lref
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\MainWindow.baml
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.g.resources
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.Properties.Resources.resources
+H:\001\Documents\AAA Important Files\简历\IOOF intern\IOOF Coding Challenge\RobotMovement\RobotMovement\obj\Debug\RobotMovement.csproj.GenerateResource.Cache

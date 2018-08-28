@@ -1,0 +1,111 @@
+﻿<Window x:Class="RobotMovement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RobotMovement"
+        mc:Ignorable="d"
+        Title="RobotMovement" Height="350" Width="620">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="InputField">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="SelectInput">
+                <TabControl x:Name="InputMethod" Margin="5,0" SelectionChanged="InputMethod_SelectionChanged">
+                    <TabItem Header="Input the command">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock TextWrapping="Wrap">Please place the robot on table (5*5) by 'PLACE X,Y,F'.<LineBreak/>Move the robot on table by 'MOVE/LEFT/RIGHT'.<LineBreak/>Click 'Report' to see where your robot is.<LineBreak/>You do not have to include 'report' in your command", click on 'Report' will execute the commands.</TextBlock>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Upload the command">
+                        <Grid>
+                            <StackPanel Orientation="Vertical">
+                                <Label x:Name="UploadFile" Content="Please upload the command file (.txt only)"/>
+                                <StackPanel Orientation="Horizontal" Margin="0,10">
+                                    <Button x:Name="ReadFile" Click="ReadFile_Click"  HorizontalAlignment="Left" Width="60"  Height="24" Content="Select" />
+                                    <TextBox x:Name="FilePath" TextWrapping="Wrap" HorizontalAlignment="Left" IsReadOnly="True" Margin="10,0"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+            <Grid x:Name="ShowCommand" Grid.Row="1">
+                <StackPanel Orientation="Vertical">
+                    <TextBox x:Name="Command" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Height="150" Margin="5,0"/>
+                    <Button x:Name="Report" Click="Report_Click" Width="120" Margin="10" Content="Report"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid x:Name="OutputField" Grid.Column="1" Margin="10,0">
+            <StackPanel Orientation="Vertical">
+                <Label Content="Robot Movement" HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="West" VerticalAlignment="Center" Background="Red"/>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Label Content="North" HorizontalAlignment="Center" Background="Yellow"/>
+                        <FlowDocumentScrollViewer IsSelectionEnabled="False" HorizontalAlignment="Center" Width="158" Height="142" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                            <FlowDocument>
+                                <Table x:Name="RobotTable" CellSpacing="0" Padding="0" TextAlignment="Center">
+                                    <Table.Columns>
+                                        <TableColumn/>
+                                        <TableColumn/>
+                                        <TableColumn/>
+                                        <TableColumn/>
+                                        <TableColumn/>
+                                    </Table.Columns>
+                                    <TableRowGroup>
+                                        <TableRow>
+                                            <TableCell x:Name="c04" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c14" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c24" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c34" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c44" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                        </TableRow>
+                                        <TableRow>
+                                            <TableCell x:Name="c03" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c13" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c23" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c33" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c43" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                        </TableRow>
+                                        <TableRow>
+                                            <TableCell x:Name="c02" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c12" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c22" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c32" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c42" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                        </TableRow>
+                                        <TableRow>
+                                            <TableCell x:Name="c01" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c11" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c21" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c31" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c41" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                        </TableRow>
+                                        <TableRow>
+                                            <TableCell x:Name="c00" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c10" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c20" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c30" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                            <TableCell x:Name="c40" BorderBrush="Black" BorderThickness="1" TextAlignment="Center"/>
+                                        </TableRow>
+                                    </TableRowGroup>
+                                </Table>
+                            </FlowDocument>
+                        </FlowDocumentScrollViewer>
+                        <Label Content="South" HorizontalAlignment="Center" Background="Green"/>
+                    </StackPanel>
+                    <Label Content="East" VerticalAlignment="Center" Background="Blue"/>
+                </StackPanel>
+                <Label x:Name="Output" Content="" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0,10"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
